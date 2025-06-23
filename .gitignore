@@ -22,3 +22,129 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea/             # JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.vscode/           # VS Code
+*.iml              # JetBrains IDEs
+.DS_Store          # macOS
+Thumbs.db          # Windows
+npm-debug.log*
+yarn-debug.log*
+
+# Runtime files
+*.log
+*.pid
+*.seed
+*.netrc
+.npm/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Yarn specific
+.yarn/
+.pnp.*
+
+# Build artifacts
+# For Vite projects, 'dist' is the default build output directory.
+# If you configure a different build directory, add it here.
+dist/
+# Optional: if you have a separate 'build' folder for other reasons
+# build/
+
+# Dependency directories
+node_modules/
+
+# Local .env files (CRITICAL for security)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: if you have temporary files or specific output folders
+# that should not be tracked by Git
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Coverage directory
+coverage/
+
+# VS Code specific files
+.vscode/*.code-snippets
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+
+# Cypress E2E Testing specific
+cypress/videos/
+cypress/screenshots/
+
+# SvelteKit specific (if using, though you're React)
+.svelte-kit/
+.vercel/
+.netlify/
+
+# Next.js specific (if using, though you're React)
+.next/
+
+# React specific (often covered by others, but good to be explicit)
+# If you used create-react-app without ejecting, the build folder is usually 'build'
+# For Vite, it's 'dist'
+# build/
+
+# Vercel deployment ignores
+.vercel/
+
+# Nginx reverse proxy configurations (if you manage them locally for dev)
+nginx/*.conf
+
+# Certificate files (if you handle local HTTPS for dev)
+*.pem
+*.key
+*.crt
+
+# Docker specific (if you containerize your frontend for dev)
+.dockerignore
+Dockerfile.dev # Or any dev-specific Dockerfiles
+
+# Database files (if you have SQLite or similar locally for dev/testing)
+*.sqlite
+*.db
+
+# Any other specific file types you know should not be versioned
+*.log
+*.zip
+*.tar
+*.rar
