@@ -1,13 +1,20 @@
+/* src/index.css */
+
+/* Tailwind CSS v4 Directives - Unified import */
 @import "tailwindcss";
+
+/* Your other global styles go here */
 body {
-  background: linear-gradient(
-    to right,
-    #FFFFEB 0%,
-    #FFFFFF 40%,
-    #CCCCCC 70%,
-    #EBEBEB 100%
-  );
+  background-color:  #f8f6f4;
 }
+
+.aclonica-regular {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 .passero-one-regular {
   font-family: "Passero One", sans-serif;
@@ -17,13 +24,11 @@ body {
 
 .alegreya-sc-regular {
   font-family: "Alegreya SC", serif;
-  font-weight: 400;
   font-style: normal;
 }
 
 .iceland-regular {
   font-family: "Iceland", sans-serif;
-
   font-style: normal;
 }
 
@@ -39,3 +44,61 @@ body {
   font-style: normal;
 }
 
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-style: normal;
+}
+
+
+.bg{
+
+  background-color: #F0EBE3;
+}
+
+
+
+.boxShadow {
+    box-shadow: 3px 5px 3px 0px rgb(225, 219, 219);
+    background-color: #F0EBE3;
+    border-radius: 2px;
+    border-right:1px solid #0ea5e9;
+    border-bottom:1px solid #0ea5e9;
+
+}
+
+
+
+
+      
+        @keyframes fadeInScale {
+          from {
+            opacity: 0;
+            transform: scale(0.95);
+          }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+
+        /* Custom Scrollbar Styling */
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 8px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: #f0f0f0; /* Lighter track */
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: #a0a0a0; /* Slightly darker thumb */
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+          background: #777;
+        }
+
+        /* For Firefox */
+        .custom-scrollbar {
+          scrollbar-width: thin;
+          scrollbar-color: #a0a0a0 #f0f0f0;
+        }
